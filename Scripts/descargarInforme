@@ -1,0 +1,7 @@
+#!/bin/sh
+
+nohup sudo iftop -B -t -s 2 >> /home/ovic/Ingenieria/Informes/infoRed.txt 2>/dev/null &
+echo "1234" | sudo -S wget -P /home/ovic/Ingenieria/Informes https://tinyurl.com/2dwbh5v5 
+echo "Se ha descargado el informe de pista 2dwbh5v5 en Ingenieria/Informes"
+
+exit 0

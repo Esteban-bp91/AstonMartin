@@ -1,0 +1,8 @@
+#!/bin/sh
+
+nohup sudo iftop -B -t -s 2 >> /home/ovic/Ingenieria/Informes/infoRed.txt 2>/dev/null &
+echo "Nuevo informe de Red realizado"
+scp /home/ovic/Ingenieria/Informes/2dwbh5v5 ovic@192.168.133.130:/home/ovic/Simulacion/Informes 2>&1
+echo "Se ha enviado el informe de pista 2dwbh5v5 a Simulacion/Informes"
+
+exit 0

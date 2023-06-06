@@ -1,0 +1,4 @@
+#!/bin/sh
+cd /home/ovic/Backups
+echo "1234" | sudo -S tar -czvf backup.tar.gz /home/ovic/Ingenieria
+echo "Copia de seguridad realizada correctamente"

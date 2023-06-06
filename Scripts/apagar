@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "Apagado en 5 segundos"
+sleep 5
+echo "1234" | sudo -S shutdown -h now
+

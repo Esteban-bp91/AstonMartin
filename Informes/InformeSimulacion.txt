@@ -1,0 +1,4 @@
+Informe Simulacion:
+
+Este informe contiene los datos obtenidos por el departamento de Simulacion 
+durante la noche.

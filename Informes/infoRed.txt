@@ -1,0 +1,64 @@
+Listening on ens33
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 192.168.133.129                          =>     1,19KB     1,19KB     1,19KB     2,38KB
+     185.103.37.74                            <=     54,8KB     54,8KB     54,8KB      110KB
+   2 192.168.133.129                          =>       532B       532B       532B     1,04KB
+     172.67.1.225                             <=     2,64KB     2,64KB     2,64KB     5,27KB
+   3 192.168.133.129                          =>       111B       111B       111B       222B
+     _gateway                                 <=       362B       362B       362B       724B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     1,82KB     1,82KB     1,82KB
+Total receive rate:                                  57,7KB     57,7KB     57,7KB
+Total send and receive rate:                         59,6KB     59,6KB     59,6KB
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     1,82KB     57,7KB     59,6KB
+Cumulative (sent/received/total):                    3,64KB      115KB      119KB
+============================================================================================
+
+Listening on ens33
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ovic-virtual-machine                     =>     53,5KB     53,5KB     53,5KB      107KB
+     192.168.133.130                          <=     2,41KB     2,41KB     2,41KB     4,83KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     53,5KB     53,5KB     53,5KB
+Total receive rate:                                  2,41KB     2,41KB     2,41KB
+Total send and receive rate:                         55,9KB     55,9KB     55,9KB
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     53,5KB     2,41KB     55,9KB
+Cumulative (sent/received/total):                     107KB     4,83KB      112KB
+============================================================================================
+
+Listening on ens33
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ovic-virtual-machine                     =>     1,02KB     1,02KB     1,02KB     2,03KB
+     185.103.37.73                            <=     54,1KB     54,1KB     54,1KB      108KB
+   2 ovic-virtual-machine                     =>       562B       562B       562B     1,10KB
+     172.67.1.225                             <=     2,64KB     2,64KB     2,64KB     5,27KB
+   3 ovic-virtual-machine                     =>       111B       111B       111B       222B
+     _gateway                                 <=       496B       496B       496B       992B
+--------------------------------------------------------------------------------------------
+Total send rate:                                     1,67KB     1,67KB     1,67KB
+Total receive rate:                                  57,3KB     57,3KB     57,3KB
+Total send and receive rate:                         58,9KB     58,9KB     58,9KB
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     1,67KB     57,3KB     58,9KB
+Cumulative (sent/received/total):                    3,35KB      115KB      118KB
+============================================================================================
+
+Listening on ens33
+   # Host name (port/service if enabled)            last 2s   last 10s   last 40s cumulative
+--------------------------------------------------------------------------------------------
+   1 ovic-virtual-machine                     =>     52,6KB     52,6KB     52,6KB      105KB
+     192.168.133.130                          <=     1,48KB     1,48KB     1,48KB     2,96KB
+--------------------------------------------------------------------------------------------
+Total send rate:                                     52,6KB     52,6KB     52,6KB
+Total receive rate:                                  1,48KB     1,48KB     1,48KB
+Total send and receive rate:                         54,1KB     54,1KB     54,1KB
+--------------------------------------------------------------------------------------------
+Peak rate (sent/received/total):                     52,6KB     1,48KB     54,1KB
+Cumulative (sent/received/total):                     105KB     2,96KB      108KB
+============================================================================================
+
