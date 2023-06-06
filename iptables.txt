@@ -1,0 +1,18 @@
+
+Script /etc/reglas-iptables
+
+#!/bin/sh
+sudo iptables -A INPUT -i ens33 ! -s 192.168.133.0/24 -j DROP
+sudo iptables -A OUTPUT -i ens33 -s 192.168.133.0/24 -j ACCEPT
+sudo iptables -A INPUT -i ens33 -s 192.168.133.0/24 -j ACCEPT
+
+
+Script /etc/rc.local
+
+#!/bin/sh -e
+#
+# rc.local
+
+/etc/reglas-iptables
+exit 0
+
